@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0; 
+    /* color: #ffbbcc; */
+}
+
+main section{
+    width: 42%;
+    height: 680px;
+}
+
+section img{
+    width: 100%;
+    height: 100%;
+}
+
+section .msg{
+    /* border: 1px solid red; */
+    top: 45%;
+    left: 9%;
+    position: absolute;
+    height: 50px;
+    width: 30%;
+}
+
+section .msg h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 30px;
+    display: block;
+}
+
+.devop{
+    color: #fcfcfc;
+    top: 69%;
+    left: 9%;
+    position: absolute;
+    height: 50px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+article{
+    /* border: solid black; */
+    width: 58%;
+    height: 680px;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: rgb(23, 18, 46);
+}
+
+article header{
+    width: 80%;
+    height: 55%;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    /* border: 1px solid black;    */
+}
+
+header .try{
+    width: 100%;
+    height: 14%;
+    background-color: rgb(149, 224, 36);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.try p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.fill{
+    background-color: #fff;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    padding: 50px 0px 0px 0px;
+}
+
+input{
+    display: block;
+    width: 85%;
+    height: 20%;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: 1px solid #333;
+    outline: none;
+    border-radius: 5px;
+}
+
+.record:focus{
+    border: 2px solid rgb(149, 224, 36);
+
+}
+
+.prime{
+    margin-bottom: 40px;
+}
+
+.btn{
+    margin-top: 27px;
+    outline: none;
+    background-color: rgb(10, 78, 10);
+    border: none;
+    display: block;
+    width: 85%;
+    height: 20%;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+form p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(85, 81, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form p a{
+    text-decoration: none;
+    color: rgb(9, 9, 66);
+}
